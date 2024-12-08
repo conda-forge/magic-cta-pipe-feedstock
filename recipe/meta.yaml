@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
   entry_points:
     - create_dl3_index_files = magicctapipe.scripts.lst1_magic.create_dl3_index_files:main
     - lst1_magic_create_irf = magicctapipe.scripts.lst1_magic.lst1_magic_create_irf:main
@@ -57,7 +57,7 @@ requirements:
     - pandas
     - pyirf >=0.10.0,<0.11.dev0
     - seaborn
-    - astropy
+    - astropy-base
     - bokeh
     - eventio <2.0.0a0,>=1.9.1
     - h5py
