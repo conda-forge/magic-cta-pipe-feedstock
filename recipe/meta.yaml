@@ -1,5 +1,5 @@
 {% set name = "magic-cta-pipe" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/magic_cta_pipe-{{ version }}.tar.gz
-  sha256: dd64104ddb029dfa8ec2ea4ed25745324a80e9c5e75ab9fd08ac792f7255161e
+  sha256: 60f36577d86b32c48ec1531959d58fe6396024abef2d0d0428d47782904bae29
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
   entry_points:
     - create_dl3_index_files = magicctapipe.scripts.lst1_magic.create_dl3_index_files:main
     - lst1_magic_create_irf = magicctapipe.scripts.lst1_magic.lst1_magic_create_irf:main
