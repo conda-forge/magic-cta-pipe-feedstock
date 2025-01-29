@@ -57,7 +57,7 @@ requirements:
     - pandas
     - pyirf >=0.10.0,<0.11.dev0
     - seaborn
-    - astropy
+    - astropy-base
     - bokeh
     - eventio <2.0.0a0,>=1.9.1
     - h5py
