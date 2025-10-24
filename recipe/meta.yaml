@@ -48,11 +48,11 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - ctapipe>=0.25.0,<0.26
-    - lstchain>=0.11.0
+    - ctapipe >=0.25.0,<0.26
+    - lstchain >=0.11.0
     - ctaplot >=0.6.4,<0.7.dev0
-    - ctapipe-io-magic=0.5.7
-    - gammapy=1.3
+    - ctapipe-io-magic =0.5.7
+    - gammapy =1.3
     - uproot >=5.0,<6.dev0
     - pandas
     - pyirf
