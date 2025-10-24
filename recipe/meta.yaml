@@ -48,27 +48,27 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - ctapipe >=0.19.2,<0.20.dev0
-    - lstchain <0.10.12,>=0.10.5
+    - ctapipe>=0.25.0,<0.26
+    - lstchain>=0.11.0
     - ctaplot >=0.6.4,<0.7.dev0
-    - ctapipe-io-magic >=0.5.4,<0.6.dev0
-    - gammapy >=1.1,<2.dev0
+    - ctapipe-io-magic=0.5.7
+    - gammapy=1.3
     - uproot >=5.0,<6.dev0
     - pandas
-    - pyirf >=0.10.0,<0.11.dev0
+    - pyirf
     - seaborn
     - astropy-base
     - bokeh
-    - eventio <2.0.0a0,>=1.9.1
+    - eventio
     - h5py
     - iminuit >=2
     - joblib >=1.2.0,<1.3.dev0
-    - matplotlib-base >=3.7,<4.dev0
+    - matplotlib-base
     - numba
     - numpy
     - protozfits >=2.5,<3.dev0
-    - scipy <1.12,>=1.8
-    - scikit-learn >=1.2,<2.dev0
+    - scipy
+    - scikit-learn
     - pytables
     - pymongo
     - pyparsing
