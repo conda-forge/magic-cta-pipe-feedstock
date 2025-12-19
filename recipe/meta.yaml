@@ -1,5 +1,5 @@
 {% set name = "magic-cta-pipe" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/magic_cta_pipe-{{ version }}.tar.gz
-  sha256: 732f60a84a4b0eae218e649153bb6fc35cd743e5890ce7ea07cc96dfb7107df9
+  sha256: 7ec46a56625726343b710be390cb957eedaf0f7aba7a8c5a6d3b4d14ec06760b
 
 build:
   noarch: python
